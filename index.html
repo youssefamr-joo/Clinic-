@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic Website</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- bar start -->
+    <header>
+      <div class="container">
+        <div class="top-bar flex">
+          <div class="font-sm bar-left flex">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA
+            </p>
+            <p>
+              <i class="fa-regular fa-clock"></i> Mon - Fri : 09.00 AM - 09.00
+              PM
+            </p>
+          </div>
+          <div class="bar-right flex">
+            <p class="font-sm">
+              <i class="fa-solid fa-phone"></i> +012 345 6789
+            </p>
+            <ul class="flex">
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-linkedin-in"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- bar end -->
+
+    <!-- nav start -->
+    <nav class="navbar">
+      <div class="nav flex">
+        <div class="nav-left">
+          <a href="index.html"
+            ><h1><i class="far fa-hospital"></i> Clinic</h1></a
+          >
+        </div>
+
+        <!--? toggle menu -->
+        <button class="menu-toggle">
+          <i class="fa-solid fa-bars cursor-pointer" id="toggle"></i>
+        </button>
+
+        <div class="nav-right">
+          <i class="fa-solid fa-xmark d-none" id="close"></i>
+          <div class="flex">
+            <ul class="flex">
+              <li class="flex">
+                <a href="#" class="active">home</a>
+              </li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li class="drop">
+                <a href="#">pages <i class="fa-solid fa-chevron-down"></i> </a>
+                <div class="dropdown">
+                  <ul class="dropdown-content">
+                    <li>Feature</li>
+                    <li>Our Doctor</li>
+                    <li>Appointment</li>
+                    <li>Testimonial</li>
+                    <li>404 Page</li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">contact</a></li>
+            </ul>
+            <a class="btn">
+              Appointment <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+    <!-- home start -->
+    <section class="home">
+      <div class="home-content flex">
+        <div class="home-left">
+          <div class="home-left-content">
+            <h1>Good Health Is The Root Of All Happiness</h1>
+            <div class="home-numbers">
+              <div class="number-content">
+                <h2>123</h2>
+                <p>Expert Doctors</p>
+              </div>
+              <div class="number-content">
+                <h2>1234</h2>
+                <p>Medical Stuff</p>
+              </div>
+              <div class="number-content">
+                <h2>12345</h2>
+                <p>Total Patients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-right">
+          <img src="img/carousel-1.jpg" alt="home" />
+          <div class="home-right-content">
+            <h1>Cardiology</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
